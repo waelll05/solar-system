@@ -16,3 +16,6 @@ jobs:
             node-version: 22
         - name: Install Dependencies
           run: npm install --no-audit
+
+        - name: Unit Testing
+          run: npm test
